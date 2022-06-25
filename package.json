@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^5.0.0",
+    "nx": "^14.3.6"
+  },
+  "workspaces": {
+    "packages": ["packages/*"]
+  },
+  "scripts": {
+    "bootstrap": "lerna exec -- linklocal && lerna bootstrap --mutex=network"
+  }
+}

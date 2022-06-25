@@ -1,0 +1,26 @@
+{
+  "name": "@app/web",
+  "version": "0.0.0",
+  "author": "Liz Ainslie <lizainslie16@gmail.com>",
+  "dependencies": {
+    "@app/core": "file:../core",
+    "vue": "^3.2.37"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/tsconfig": "^0.1.3",
+    "vite": "^2.9.12",
+    "vue-tsc": "^0.38.1"
+  }
+}
