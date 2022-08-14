@@ -7,6 +7,10 @@ harnessing the power of Lerna.
 > getting them fixed eventually, and I'm accepting PRs, so contributions are
 > welcome and encouraged.
 
+## Features
+- 🚀 Built with Vite
+- 🧰 Typescript as a default
+
 ## License
 This template is licensed under the [MIT License](LICENSE), feel free to use it
 and change the license to anything permissible under the original terms of the
